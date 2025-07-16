@@ -1,0 +1,69 @@
+# Java Variables
+
+Variables in Java are used to store data values. Every variable has a **type**, **name**, and can store a **value**.
+
+##  Syntax
+
+<type> <variableName> = <value>;
+
+Example:
+int age = 25;
+double salary = 55000.50;
+String name = "Kalai";
+boolean isStudent = true;
+
+
+Types of Variables
+
+1️ **Primitive Types**  
+- byte
+- short
+- int
+- long
+- float
+- double
+- char
+- boolean
+
+2️ **Non-Primitive Types (Reference Types)**
+- String
+- Arrays
+- Objects
+
+3.Rules for Naming Variables
+  Must start with a letter, `_`, or `$`  
+  Cannot start with a digit  
+  Case-sensitive (age ≠ Age)  
+  No spaces
+
+
+## Types of Variables 
+     1️. Local Variables
+- Declared inside methods, constructors, or blocks.
+- Scope is limited to that method or block.
+- Must be initialized before use.
+
+Example:
+void show() {
+    int count = 10;  // local variable
+    System.out.println(count);
+}
+    2.Instance Variables
+Declared inside a class, but outside any method.
+Each object has its own copy.
+Also called non-static fields.
+
+Example:
+public class Student {
+    String name;    // instance variable
+    int age;        // instance variable
+}
+   3.Static Variables (Class Variables)
+Declared with the static keyword.
+Shared by all objects of the class.
+Memory is allocated once when the class is loaded.
+
+Example:
+public class Student {
+    static String schoolName = "ABC School";  // static variable
+}
