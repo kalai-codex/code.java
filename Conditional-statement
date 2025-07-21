@@ -1,0 +1,70 @@
+1.IF-STATEMENT
+
+if (condition) {
+  // code to execute if condition is true
+}
+EXAMPLE:
+int age = 18;
+if (age >= 18) {
+    System.out.println("You are an adult.");
+}
+
+2.IF-ELSE STATEMENT
+if (condition) {
+    // true block
+} else {
+    // false block
+}
+EXAMPLE:
+int age = 16;
+if (age >= 18) {
+    System.out.println("You can vote.");
+} else {
+    System.out.println("You are too young to vote.");
+}
+
+
+3.ELSE-IF STATEMENT
+if (condition1) {
+    // code block 1
+} else if (condition2) {
+    // code block 2
+} else {
+    // code block 3
+}
+EXAMPLE:
+int marks = 85;
+if (marks >= 90) {
+    System.out.println("Grade A");
+} else if (marks >= 75) {
+    System.out.println("Grade B");
+} else {
+    System.out.println("Grade C");
+}
+
+4.SWITCH-CASE STATEMENT
+switch (expression) {
+    case value1:
+        // code
+        break;
+    case value2:
+        // code
+        break;
+    default:
+        // code
+}
+EXAMPLE:
+int day = 3;
+switch (day) {
+    case 1:
+        System.out.println("Monday");
+        break;
+    case 2:
+        System.out.println("Tuesday");
+        break;
+    case 3:
+        System.out.println("Wednesday");
+        break;
+    default:
+        System.out.println("Invalid day");
+}
