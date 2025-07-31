@@ -31,6 +31,8 @@ public static void my(){
             System.out.println(i);
         }
 }
+GUESS THE OUTPUT?
+
 public static void loop(){
         int[] mark={81,71,78,69,75,72};
         for(int i=0;i<mark.length;i++){
@@ -38,5 +40,7 @@ public static void loop(){
         }
     }
 }
+
+GUESS THE OUTPUT?
 
 NOTE : you can use for loop for executing many things at once one by one.
